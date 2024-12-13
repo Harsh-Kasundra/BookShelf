@@ -24,7 +24,7 @@ export const AddAuthor = () => {
           onClick={() => {
             navigate("/");
           }}
-          className="text-2xl sm:text-4xl font-bold text-[#6366F1] p-4 hover:cursor-default "
+          className="text-2xl sm:text-4xl font-bold text-[#6366F1] p-4 hover:cursor-pointer "
         >
           Add Author
         </h1>
@@ -58,12 +58,20 @@ export const AddAuthor = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="flex justify-between">
             <button
               onClick={handleAuthorSubmit}
               className="bg-[#6366F1] border rounded-xl p-2 text-lg w-32 ml-5"
             >
               Submit
+            </button>
+            <button
+              onClick={() => {
+                navigate("/");
+              }}
+              className="bg-[#f16363] border rounded-xl p-2 text-lg w-32 ml-5"
+            >
+              Cancel
             </button>
           </div>
         </div>

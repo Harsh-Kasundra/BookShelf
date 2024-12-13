@@ -40,7 +40,7 @@ export const Booklist = () => {
             onClick={() => {
               navigate("/");
             }}
-            className="text-2xl sm:text-4xl font-bold text-[#6366F1] p-4 hover:cursor-default"
+            className="text-2xl sm:text-4xl font-bold text-[#6366F1] p-4 hover:cursor-pointer"
           >
             bookShelf
           </h1>

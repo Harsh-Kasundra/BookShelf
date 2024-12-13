@@ -12,6 +12,7 @@ export default function App() {
           <Route path="/" element={<Booklist />} />
           <Route path="/addBook" element={<AddBook />} />
           <Route path="/addAuthor" element={<AddAuthor />} />
+          <Route path="/edit-book/:id" element={<AddBook />} />
         </Routes>
       </BrowserRouter>
     </>

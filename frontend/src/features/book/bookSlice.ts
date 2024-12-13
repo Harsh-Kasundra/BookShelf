@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import axiosInstance from "../../services/axiosInstance";
+import { axiosInstance } from "../../services/axiosInstance";
 
 interface bookData {
   id: number;

@@ -1,8 +1,8 @@
 import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Booklist } from "./pages/bookList";
-import { AddBook } from "./pages/addBook";
-import { AddAuthor } from "./pages/addAuthor";
+import { Booklist } from "./pages/BookList";
+import { AddBook } from "./pages/AddBook";
+import { AddAuthor } from "./pages/AddAuthor";
 
 export default function App() {
   return (
